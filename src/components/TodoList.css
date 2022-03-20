@@ -1,0 +1,50 @@
+.block {
+	display: flex;
+	justify-content: space-around;
+	width: 530px;
+	height: 36px;
+	background-color: rgb(243, 243, 243);
+	border-radius: 3px;
+	border: solid 1px #4eb5fa;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.done {
+	text-decoration: line-through;
+	color: #4eb5fa;
+	list-style: none;
+	font-family: Smokum;
+}
+.task {
+	list-style: none;
+	font-family: Smokum;
+}
+.listbtn {
+	transition-duration: 0.4s;
+	border: none;
+	margin-left: 5px;
+	width: 50px;
+	height: 30px;
+	border-radius: 4px;
+	margin: 2px;
+	font-family: Smokum;
+}
+.listbtn:hover {
+	background-color: #4eb5fa; /* Green */
+	color: white;
+	font-family: Smokum;
+}
+.title {
+	margin-top: 3px;
+	font-size: 23px;
+	font-family: Smokum;
+}
+.date {
+	margin-top: 3px;
+	font-size: 23px;
+	font-family: Smokum;
+}
+.checkbox {
+	width: 40px;
+	height: 30px;
+}

@@ -1,0 +1,38 @@
+.forma {
+	justify-content: center;
+}
+.container {
+	width: 650px;
+	padding: 15px;
+	background-color: white;
+	margin-left: 300px;
+	margin-top: 20px;
+	height: 1005;
+	border-radius: 10px;
+}
+.Input {
+	width: 500px;
+	height: 27px;
+	margin-top: 30px;
+	border: solid 1px #4eb5fa;
+	border-radius: 3px;
+	font-family: Smokum;
+}
+.Input :focus {
+	border: solid 1px #4eb5fa;
+	font-family: Smokum;
+}
+.btn {
+	transition-duration: 0.4s;
+	font-family: Smokum;
+	border: none;
+	margin-left: 5px;
+	width: 50px;
+	height: 35px;
+	border-radius: 4px;
+}
+.btn:hover {
+	background-color: #4eb5fa; /* Green */
+	color: white;
+	font-family: Smokum;
+}
